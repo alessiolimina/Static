@@ -12,9 +12,9 @@ public class Badge {
         return "ZXY" + employee.name + employee.surname + "YXZ";
     }
     public void showBadgeDetails(){
-        keepTrackOfEmployeesNumber();
+        System.out.println("Total number of employees: " + totalNumberOfEmployees);//the total number of employee tracked by the badges
         employee.getEmployeeDetails();
-        //TODO continue this line
+        System.out.println("Badge id code " + badgeIdCode);//the badgeIdCode
     }
     public Badge(Employee employeeThatNeedsBadge){
         keepTrackOfEmployeesNumber();
