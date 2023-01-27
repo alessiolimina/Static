@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c238cbd7-95b7-4137-ab6d-06cd697c607a" name="Changes" comment="Exercise: static">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/staticstuff/Badge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/staticstuff/Badge.java" afterDir="false" />
-    </list>
+    <list default="true" id="c238cbd7-95b7-4137-ab6d-06cd697c607a" name="Changes" comment="Exercise: static" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +54,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674759930170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exercise: static">
+      <created>1674819926716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674819926716</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exercise: static">
+      <created>1674819986516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674819986516</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
