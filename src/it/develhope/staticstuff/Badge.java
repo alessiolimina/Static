@@ -1,6 +1,8 @@
 package it.develhope.staticstuff;
 
 
+import java.util.Random;
+
 public class Badge {
     private static int totalNumberOfEmployees;
     private String badgeIdCode;
@@ -10,7 +12,10 @@ public class Badge {
         totalNumberOfEmployees += 1;}
 
     private String generateBadgeIdCode(){
-        return "ZXY" + employee.name + employee.surname + "YXZ";}
+        Random random = new Random();
+        String[] randomLetters = {"A","B","C", "D", "E", "F", "G", "H", "I" , "L", "N", "O", "P" , "Q" , "R" , "S" , "T" , "U" , "V" , "W" , "X" , "Y" , "Z"};
+        return randomLetters[random.nextInt(randomLetters.length)] + employee.name + employee.surname + randomLetters[random.nextInt(randomLetters.length)];
+    }
 
     public void showBadgeDetails(){
         System.out.println("Total number of employees: " + totalNumberOfEmployees);
